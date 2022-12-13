@@ -4,6 +4,7 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.material.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
+import com.example.cursojetpackcompose.home.Home
 import com.example.cursojetpackcompose.ui.theme.CursoJetpackComposeTheme
 
 @Composable
@@ -14,7 +15,7 @@ fun Screen() {
             color = MaterialTheme.colors.background,
 
             ) {
-            Login()
+            Home()
         }
     }
 }
